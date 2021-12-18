@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Magestic Furry Creatures!</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="https://freepngimg.com/download/cat/60732-oreo-illustrator-cat-android-nougat-emoji.png">
+</head>
+<body>
+	<!-- Navigation -->
+	<nav>
+		<div class="container navigation-wrapper">
+			<ul>
+				<li><a href="#">home</a></li>
+				<li><a href="https://www.purina.com/cats/cat-breeds?page=0">List of Cats</a></li>
+				<li><a href="mailto:adrianazalishvili@gmail.com">Cat Contactor</a></li>
+				<li>
+					<div class="dropdown">
+						<button class="btn btn-success dropdown-toggle" type="button"
+						data-bs-toggle="dropdown" aria-expanded="false">
+						Dropdown Button	
+						</button>
+						<ul class="dropdown-menu" aria-labeledby="dropdownMenuButton1">
+							<li class="dropdown-item"><a href="file:///C:/Users/fortn/Desktop/coding/index.html#Scottish-Fold">Scottish-Fold</a></li>
+							<li class="dropdown-item"><a href="file:///C:/Users/fortn/Desktop/coding/index.html#Sleepy-Cats">Sleepy-Cats</a></li>
+							<li class="dropdown-item"><a href="file:///C:/Users/fortn/Desktop/coding/index.html#Bengals">Bengals</a></li>
+						</ul>
+					</div>
+					<!-- event listener example -->
+					<li><button class="btn btn-success" type="button" onclick="myFunction()">Verification</button></li>
+					<script type="text/javascript">
+						function myFunction() {
+							let text;
+							let person = prompt("Please, enter your name:", "Adriana Zaalishvili");
+							if (person == null || person == "") {
+								text ="stranger danger";
+							} else {
+								text = "Welcome" + person + "! Enjoy your Furry adventure!";
+							}
+							document.getElementById ("Verification").innerHTML = text;
+						}
+					</script>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- ./Navigation -->
+    <div class="container">
+	    <div class="row">
+	    	<div class="col-sm-4"> 
+	    		<img class="Kittens" src="https://cdn.britannica.com/15/193115-131-ACA4A384/Collage-cats-cat-quiz-Mendel.jpg">
+				<h1 id="Verification">Cat Breeds</h1>
+				<ul>
+					 <li>Breed One - Scottish-fold</li>
+					 <li>Breed Two - Tabby Cat</li>
+					 <li>Breed Three - Persian Cat</li>
+					 <li>Breed Four - Ragdoll Cat</li>
+					 <li>Breed five - Bengal Cat</li>
+					 <li>Breed Six - Khao Manee</li>
+					 <li>Breed Seven - Tincker Toy</li>
+					 <h2>Most popular Cat breeds.</h2>
+		     			<ul>
+		     			<li>The Ashera – Up to $125,000.</li><li>Savannah – $50,000.</li>
+						<li>Bengal – $25,000.</li><li>Persian – $5,500.</li>
+						<li>Peterbald – $5,000.</li><li>Sphynx – $3,000.</li>	
+						<li>Scottish Fold – $3,000.</li><li>Russian Blue – $3,000.</li>
+						</ul>
+						<br>
+						<iframe src="https://www.youtube.com/embed/5EEkSU0Ti3k"></iframe>
+						<div>
+		     			<h2 id="Sleepy-Cats">Why do Cats/Kittens sleep so much.</h2>
+		     			<p>Kittens/Cats need lots of rest. When Cats/Kittens are resting it prevents more energy into their body,<br>and they will be engergized and healthy.
+		     			 Cats/Kittnes have evolved to sleep for long periods throughout the day.</p><img width="400" height="300"src="https://thediscerningcat.com/wp-content/uploads/2021/03/numerous-cats-asleep-in-a-basket.jpg.webp">
+		     		 </div>			     			
+                </ul>
+	        </div>
+	         <div class="col-sm-4">
+	         	<h2 id="Bengals">Bengals</h2>
+		     	<p>Bengals can not be called delicate, they are athletes: Angile graceful and have a strong and muscular body,<br> as befits they look like cats that belong in the jungle.
+		     		Despite their wild acctions, Bengal cats are actually quite affectionate with their human families. With that said,<br> they also have Lots of energy and have a fun-loving, playful side. They want to stay active and need a home that can match their energy. And always remember that all cats need to be taken good care, for there not to be any health issues. Bengals also can have different patterns, such as: <img width="400" height="390"src="https://hemlockhillbengals.files.wordpress.com/2018/11/bengal-colors-patterns-hsb-1.jpg?w=1000"></p>
+		        </div>
+		          <div class="col-sm-4">
+		     		<h2 id="Scottish-Fold">Scottish-Fold</h2>
+		     		<p>The Scottish Fold is a breed of domestic cat with a natural dominant-gene mutation that affects cartilage throughout the body, causing the ears to "fold", bending forward and down towards the front of the head, which gives the cat what is often described as an "owl-like" appearance. Scottish Fold is also a affectionnate breed thats bond very well with its human caregivers, they also get along with children and other pets at home. Scottish Folds are very cute and kind cats. Scottish Folds are also homebodies and do best when living as indoor cats.</p><img width="390" height="290"src="https://www.petfirst.com/wp-content/uploads/2019/07/shutterstock_130389866-1200x800.jpg">
+		     	    </div>
+		       </div>		  
+	        <div class="col-sm-4">
+	        	<h2>What is the Cat life cycle?</h2>
+			    <p> The Food life cycle for cats is:<img height="300"width="400" src="https://i.pinimg.com/originals/1e/6d/b4/1e6db4d860a92da2026f2d26fcbc5f77.jpg"> <h2>The growth life cycle for cats is:</h2><img height="300" width="400" src="https://thumbs.dreamstime.com/b/cat-growth-stage-set-white-background-illustration-212850294.jpg"></p>
+		     </div>
+		     <div class="col-sm-4">
+		     	<h2>Adopting a Cat/Kitten.</h2>
+		     	<p>Adopting a Kitten/Cat can be quite hard,<br>because sometimes your new furry friend might not feel welcomed into their new home,<br>sometimes they might even completely hate it, and always scratch you.<br> So in order for that not to happen you have t spend lots of time with your new friend, and train it to love you.<br> To train the Cat/Kitten you need treats, those furry creatures will do anything for food.<br> Then once you have a treat, try peting your little friend for some time.<br> If your furry friend scratches you, DO NOT give the treat to Him/Her.<br> Otherwise if your Cat/Kitten does not scratch you, you may give him/her the treat.<img height="450" width="500"src="https://2qibqm39xjt6q46gf1rwo2g1-wpengine.netdna-ssl.com/wp-content/uploads/2021/07/25931031_web1_M1-EDH-20210723-6_Best_CBD_Cat_Main_1280.jpg"></p>
+		     </div>
+		</div>
+		 <div class="row">
+
+		    
+	     </div>
+     </div>
+
+</body>
+</html> 

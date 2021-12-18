@@ -1,0 +1,37 @@
+h1 {
+	color: black;
+	background-color: #fc7658;
+	width: 260px;
+	border-radius: 10px;
+}
+.Kittens {
+	width: 500px;
+	width: -webkit-fill-available;	
+}
+/*navigation*/
+nav ul li	{
+	display: inline-block;
+	position: relative;
+}
+nav ul li a {
+	display: block;
+	padding: 15px;
+	font-size: 24px;	
+}
+.container {
+	background-color: #fc7658;
+	border-radius: 10px;
+}
+.navigation-wrapper {
+	border-radius: 10px;
+	border-color: #fc7658;
+	background-color: #fc7658;
+	border-width: 5px;
+}	
+/*./navigation*/
+.breeds {
+	font-size: 20px;
+}
+                   
+   
+
